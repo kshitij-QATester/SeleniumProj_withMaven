@@ -21,16 +21,13 @@ public class BaseReport {
 
 	
 	ExtentHtmlReporter ht;
-	//it is used to store reports in report folder 
-	//it is predefined class from com.aventstack package
+	
 	
 	ExtentReports ex;
-	//it is used to generate report
-	//it is predefined class from com.aventstack package
+	
 	
 	ExtentTest et;
-	//it is used to give label, font color 
-	//it is predefined class from com.aventstack package
+	
 	
 	WebDriver d;
 	String homeurl="https://www.facebook.com/";
