@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Cross browser Test"  parallel="false" preserve-order="true" verbose="3">
+
+<test name="Compatible Test on diff browser">
+
+
+<classes>
+<class name="testngbasics.ChromeTest">
+
+<methods>
+<include name="ChromeBrowserTest1"></include>
+<include name="FirefoxBrowserTest2"></include>
+<include name="EdgeBrowserTest3"></include>
+</methods>
+
+</class>
+
+</classes>
+</test>
+</suite>

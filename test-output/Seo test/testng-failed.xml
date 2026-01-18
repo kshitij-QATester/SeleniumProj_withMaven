@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Seo test]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="perform Broken Valid Links Test and Domain Test and Anchoe tag test(failed)">
+    <classes>
+      <class name="seotest.SEOTest">
+        <methods>
+          <include name="Test1"/>
+          <include name="TearDown"/>
+          <include name="Setup"/>
+          <include name="setValidation_For_Reports"/>
+        </methods>
+      </class> <!-- seotest.SEOTest -->
+    </classes>
+  </test> <!-- perform Broken Valid Links Test and Domain Test and Anchoe tag test(failed) -->
+</suite> <!-- Failed suite [Seo test] -->
